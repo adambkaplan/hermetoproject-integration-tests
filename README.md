@@ -34,5 +34,6 @@ repository:
 
 ```sh
 mvn clean package -o \
--Dmaven.repo.local=hermeto-output/deps/maven
+-Dmaven.repo.local=hermeto-output/deps/maven \
+-DskipTests=true
 ```
