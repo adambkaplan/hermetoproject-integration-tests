@@ -106,7 +106,7 @@
             <plugin>
                 <groupId>io.github.chains-project</groupId>
                 <artifactId>maven-lockfile</artifactId>
-                <version>5.13.0</version>
+                <version>5.13.3</version>
                 <configuration>
                     <includeMavenPlugins>true</includeMavenPlugins>
                     <checksumMode>remote</checksumMode>
