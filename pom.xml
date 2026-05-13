@@ -58,11 +58,11 @@
             <plugin>
                 <groupId>com.diffplug.spotless</groupId>
                 <artifactId>spotless-maven-plugin</artifactId>
-                <version>2.43.0</version>
+                <version>3.1.0</version>
                 <configuration>
                     <java>
                         <googleJavaFormat>
-                            <version>1.23.0</version>
+                            <version>1.35.0</version>
                             <style>GOOGLE</style>
                         </googleJavaFormat>
                     </java>
@@ -78,13 +78,12 @@
             <plugin>
                 <groupId>io.github.chains-project</groupId>
                 <artifactId>maven-lockfile</artifactId>
-                <version>5.13.3</version>
+                <version>5.16.0</version>
                 <configuration>
                     <includeMavenPlugins>true</includeMavenPlugins>
-                    <checksumMode>remote</checksumMode>
-                    <checksumAlgorithm>SHA-1</checksumAlgorithm>
+					<checksumMode>local</checksumMode>
                 </configuration>
-            </plugin>			
+            </plugin>
 		</plugins>
 	</build>
 
